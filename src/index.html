@@ -7,22 +7,59 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <div class="container-fluid">
-            <h1>Cole Shirakata</h1>
-            <p>Welcome to my page!</p>
+        <div id="nav-bar">
+            <a class="nav-bar-item" href="#home-section">Cole Shirakata</a>
+            <a class="nav-bar-item" href="#about-section">About</a>
+            <a class="nav-bar-item" href="#education-section">Education</a>
+            <a class="nav-bar-item" href="#projects-section">Projects</a>
         </div>
 
-        <div class="row">
-            <div class="col-md-4">
-                Cole
+        <div class="container">
+            <div class="slides" id="home-section">
+                <h1>Cole Shirakata</h1>
+                <img id="down-arrow" src="images/down-arrow.png">
             </div>
-            <div class="col-md-4">
-                Shirakata
+
+            <div class="slides" id="about-section">
+                <h1>About</h1>
+                <img id="personal-image" src="images/personal-image.jpg">
             </div>
-            <div class="col-md-4">
-                Portfolio
+
+            <div class="slides" id="education-section">
+                <h1>Education</h1>
+                <img id="ucr-logo" src="images/ucr-logo.png">
+                <h1>Projects</h1>
+                <h3>Relevant Coursework</h3>
+                <ul>
+                    <li>Software Engineering</li>
+                    <li>Web Development</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Database Management</li>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Data Retrieval</li>
+                    <li>Discrete Structures</li>
+                    <li>Embedded Systems</li>
+                    <li>Probability and Statistics (for Science & Engineering)</li>
+                    <li>Automata & Formal Language</li>
+                    <li>Bioinformatics</li>
+                </ul>
+                <h3>Skills:</h3>
+                <ul>
+                    <li>C, C++</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                    <li>HTML/CSS</li>
+                    <li>React</li>
+                </ul>
+            </div>
+
+            <div class="slides" id="projects-section">
+                <h1>Projects</h1>
             </div>
         </div>
     </body>
