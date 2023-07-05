@@ -1,7 +1,6 @@
-html {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Poppins', san-serif;
+html, body {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -34,6 +33,18 @@ html {
     background: linear-gradient(454deg, #4f4080, #9553ff);
 }
 
+.container-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #down-arrow {
     justify-content: center;
     width: 50px;
@@ -42,4 +53,28 @@ html {
 #personal-image{
     width: 300px;
     box-shadow: 5px 5px 5px #4f4080
+}
+
+#education-section {
+    padding: 50px;
+    padding-bottom: 80px;
+    min-height: 100vh;
+
+}
+
+#education-title {
+    padding: 40px;
+}
+
+#school {
+    align-items: start;
+    padding: 50px;
+}
+
+#school * { 
+    margin: 4px;
+}
+
+#coursework {
+    justify-content: center;
 }
