@@ -72,6 +72,12 @@ html, body {
 
 #down-arrow {
     width: 50px;
+    animation-name: up-and-down;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    color: white;
+    bottom: 60px;
 }
 
 #personal-image {
@@ -108,4 +114,22 @@ html, body {
 
 #coursework li {
     font-size: 24px;
+}
+
+#home-section {
+    font-size: 40px;
+}
+
+@keyframes up-and-down {
+    0% {
+        width: 50px;
+    }
+
+    50% {
+        width: 70px;
+    }
+
+    100% {
+        width: 50px;
+    }
 }
