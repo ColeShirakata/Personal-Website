@@ -52,7 +52,6 @@ html, body {
     flex-direction: column;
     gap: 20px;
     color: #fff;
-    background: linear-gradient(454deg, #4f4080, #9553ff);
 }
 
 .container-row {
@@ -70,10 +69,19 @@ html, body {
     justify-content: center;
 }
 
+#home-section {
+    background-color: #DDE6ED;
+    font-size: 40px;
+}
+
+#about-section {
+    background-color: #9DB2BF;
+}
+
 #down-arrow {
     width: 50px;
     animation-name: up-and-down;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     position: absolute;
     color: white;
@@ -83,6 +91,11 @@ html, body {
 #personal-image {
     width: 300px;
     box-shadow: 5px 5px 5px #4f4080;
+}
+
+#education-section {
+    background-color:#526D82;
+    font-size: 40px;
 }
 
 #education-section .container-row {
@@ -116,20 +129,20 @@ html, body {
     font-size: 24px;
 }
 
-#home-section {
-    font-size: 40px;
+#projects-section {
+    background-color: #DDE6ED;
 }
 
 @keyframes up-and-down {
     0% {
-        width: 50px;
+        bottom: 70px;
     }
 
     50% {
-        width: 70px;
+        bottom: 110px;
     }
 
     100% {
-        width: 50px;
+        bottom: 70px;
     }
 }
